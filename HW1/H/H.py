@@ -1,3 +1,2 @@
 def solution(a):
-    ### YOUR CODE ###
-    return
+    return [list(row) for row in zip(*a)]
